@@ -1,0 +1,26 @@
+/* --- Base Styling --- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* --- Containers --- */
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    float: left;
+}
