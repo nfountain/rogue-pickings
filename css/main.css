@@ -54,6 +54,25 @@ nav li {
     text-transform: uppercase;
 }
 
+/* --- Main Section --- */
+
+img {
+    border-top: solid 3px #77a466;
+    border-bottom: solid 3px #77a466;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #77a466;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
 /* --- Bottom Section --- */
 
 /* --- Footer --- */
