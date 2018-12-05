@@ -24,3 +24,25 @@ ul {
     width: 33%;
     float: left;
 }
+
+/* --- Header --- */
+
+/* --- Bottom Section --- */
+
+/* --- Footer --- */
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer span {
+    text-transform: none;
+    font-family: 'Yesteryear', cursive;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #77a466;
+}
