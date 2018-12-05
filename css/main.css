@@ -2,10 +2,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 20px;
 }
 
 ul {
     list-style: none;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -26,6 +31,28 @@ ul {
 }
 
 /* --- Header --- */
+
+header {
+    padding: 25px 0 50px 0;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #77a466;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
 
 /* --- Bottom Section --- */
 
