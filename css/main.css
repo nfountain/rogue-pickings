@@ -18,6 +18,7 @@ a {
 
 .full-width {
     width: 100%;
+    overflow: auto;
 }
 
 .half-width {
@@ -50,11 +51,17 @@ nav li {
     display: inline-block;
     padding-left: 25px;
     font-size: 14px;
+    font-weight: 700;
     line-height: 23px;
     text-transform: uppercase;
 }
 
 /* --- Main Section --- */
+
+main {
+    padding-bottom: 40px;
+    border-bottom: solid 1px #dedbdc;
+}
 
 img {
     border-top: solid 3px #77a466;
@@ -64,16 +71,56 @@ img {
 h2 {
     text-transform: uppercase;
     color: #77a466;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 23px;
 }
 
 main p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
+    padding-right: 40px;
 }
 
 /* --- Bottom Section --- */
+
+h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#specials {
+    border-right: solid 1px #dedbdc;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0px;
+    color: #77a466;
+}
+
+#reviews h3, #reviews p {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+#contact {
+    border-left: solid 1px #dedbdc;
+}
+
+#contact h3, #contact address {
+    padding-left: 30px;
+}
+
+a #tel {
+    color: inherit;
+    text-decoration: none;
+}
+
+#bottom-section {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #dedbdc;
+}
 
 /* --- Footer --- */
 
