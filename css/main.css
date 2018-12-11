@@ -90,7 +90,7 @@ h3 {
 }
 
 #specials {
-    border-right: solid 1px #dedbdc;
+    padding-bottom: 10px;
 }
 
 .menu {
@@ -99,13 +99,19 @@ h3 {
     color: #77a466;
 }
 
+#reviews {
+    border-left: solid 1px #dedbdc;
+    border-right: solid 1px #dedbdc;
+    padding-bottom: 10px;
+}
+
 #reviews h3, #reviews p {
     padding-left: 30px;
     padding-right: 40px;
 }
 
 #contact {
-    border-left: solid 1px #dedbdc;
+    padding-bottom: 10px;
 }
 
 #contact h3, #contact address {
@@ -118,7 +124,6 @@ a #tel {
 }
 
 #bottom-section {
-    padding-bottom: 20px;
     border-bottom: solid 1px #dedbdc;
 }
 
