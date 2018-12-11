@@ -116,6 +116,7 @@ h3 {
 
 #contact h3, #contact address {
     padding-left: 30px;
+    font-style: normal;
 }
 
 a #tel {
