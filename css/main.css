@@ -21,8 +21,13 @@ a {
     overflow: auto;
 }
 
-.half-width {
-    width: 50%;
+.two-fifths-width {
+    width: 40%;
+    float: left;
+}
+
+.three-fifths-width {
+    width: 60%;
     float: left;
 }
 
@@ -49,7 +54,7 @@ h1 span {
 
 nav li {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 15px;
     font-size: 14px;
     font-weight: 700;
     line-height: 23px;
@@ -64,6 +69,7 @@ main {
 }
 
 img {
+    width: 100%;
     border-top: solid 3px #77a466;
     border-bottom: solid 3px #77a466;
 }
